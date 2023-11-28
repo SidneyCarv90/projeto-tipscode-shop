@@ -3,6 +3,7 @@
 html{
     height: 100%;
     font-size: 16px;
+    background-color: #e3e7f3;
 }
 
 li{
@@ -10,7 +11,29 @@ li{
     list-style: none;
 }
 
+li::after{
 
+}
+
+main{
+    height: 40%;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+}
+
+.foto-alisson img{
+    width: 100%;
+    position: relative;
+    z-index: -10;
+}
+
+main{
+    display: flex;
+    align-items: center;
+}
 
 
 /*-----------------------------------------------CLASSES----------------------------------------------------*/
@@ -19,9 +42,25 @@ li{
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
+    background-color: #e4e9ed;
+    position: fixed;
+    width: 100%;
+    border-bottom-style: groove;
 }
 
-ul{
+.descricao{
+    width: 100vh;
+    position: absolute;
+    z-index: 0;
+    margin-left: 5%;
     display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.btn{
+    background-image: url("/src/img/button.png");
+    display: inline-block;
 }
 
