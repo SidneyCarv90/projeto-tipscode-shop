@@ -1,4 +1,4 @@
-/*------------------------------------------------TAGs------------------------------------------------------*/
+/*------------------------------------------------TAGs-------------------------------------------------*/
 
 html{
     height: 100%;
@@ -9,10 +9,6 @@ html{
 li{
     padding: 15px;
     list-style: none;
-}
-
-li::after{
-
 }
 
 main{
@@ -60,7 +56,14 @@ main{
 }
 
 .btn{
-    background-image: url("/src/img/button.png");
+    background-image: url("../img/button.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 277px;
+    height: 60px;
     display: inline-block;
+    text-decoration: none;
+    border-style: none;
 }
 
