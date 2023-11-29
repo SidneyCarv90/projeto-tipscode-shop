@@ -6,8 +6,12 @@ html{
 }
 
 body{
-    background-color: #e3e7f3;
-
+    background-image: url("../img/hero-alisson.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 li{
@@ -22,14 +26,6 @@ main{
 
 ul{
     display: flex;
-}
-
-.foto-alisson img{
-    width: 1650px;
-    z-index: -1;
-    position: absolute;
-    left: 270px;
-    bottom: 1px;
 }
 
 main{
@@ -55,8 +51,6 @@ main{
     display: flex;
     justify-content: right;
     flex-direction: column;
-    background-color: #e3e7f3;
-    position: absolute;
 }
 
 .btn{
