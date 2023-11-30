@@ -3,6 +3,8 @@
 html{
     height: 100%;
     font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -28,6 +30,7 @@ main{
 }
 
 nav a{
+    font-weight: bold;
     text-decoration: none;
     padding: 1% 2%;
     margin: 0 2%;
@@ -46,11 +49,45 @@ nav a::after{
     bottom: 0;
     left: 0;
     transition: 0.4s ease-in-out;
+    color: #0d8279;
+}
+
+nav a:hover{
+    color: #0d8279;
 }
 
 nav a:hover::after{
     width: 100%;
+    color: #0d8279;
 
+}
+
+h1, h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+h2{
+    margin-top: 12px;
+}
+
+h1{
+    color: #0d8279;
+}
+
+p{
+    font-weight: bold;
+    color: #929292;
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+
+.btn a{
+    color: #0d8279;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
 }
 
 
@@ -88,5 +125,8 @@ nav a:hover::after{
     height: 60px;
     text-decoration: none;
     border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
