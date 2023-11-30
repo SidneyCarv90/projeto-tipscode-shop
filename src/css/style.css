@@ -117,13 +117,13 @@ p{
 }
 
 .btn{
+    opacity: 1;
     background-image: url("../img/button.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 277px;
     height: 60px;
-    text-decoration: none;
     border-style: none;
     display: flex;
     justify-content: center;
